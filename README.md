@@ -21,3 +21,21 @@ Since Pulse is currently in beta, you may need to adjust your application's comp
     "minimum-stability": "beta",
     "prefer-stable": true
 ```
+
+Then, you may use the Composer package manager to install Pulse into your Laravel project:
+
+```bash
+    composer require laravel/pulse
+```
+
+Next, you should publish the Pulse configuration and migration files using the vendor:publish Artisan command:
+
+```bash
+    php artisan vendor:publish --provider="Laravel\Pulse\PulseServiceProvider"
+```
+
+Finally, you should run the migrate command in order to create the tables needed to store Pulse's data:
+
+```bash
+    php artisan migrate
+```
