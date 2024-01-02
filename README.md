@@ -44,3 +44,11 @@ Once Pulse's database migrations have been run, you may access the Pulse dashboa
 ```bash
 http://127.0.0.1:8000/pulse
 ```
+
+## Reference
+
+- [https://laravel.com/docs/10.x/pulse](Laravel Pulse - Laravel 10.x - The PHP Framework For Web Artisans)
+- [https://pulse.laravel.com/](Laravel Pulse)
+- [https://laravel-news.com/laravel-pulse](Laravel Pulse is a health and performance monitoring tool for your Laravel applications - Laravel News)
+- [https://benjamincrozat.com/laravel-pulse](https://benjamincrozat.com/laravel-pulse)
+
