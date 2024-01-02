@@ -12,3 +12,12 @@ The following tools are required to start the installation.
 
 - PHP 8.2
 - [Composer](https://getcomposer.org/download/)
+
+## Installation
+
+Since Pulse is currently in beta, you may need to adjust your application's composer.json file to allow beta package releases to be installed:
+
+```bash
+    "minimum-stability": "beta",
+    "prefer-stable": true
+```
